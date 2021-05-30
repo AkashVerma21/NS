@@ -1,0 +1,106 @@
+.footer{
+    /* padding: 10%; */
+    /* padding-top: 20px; */
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    background-image: linear-gradient(to right , #4e1782,#4aaa7a);
+    /* height: 200px; */
+    color: white;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+.myimg{
+    border: 7px solid seagreen;
+    border-radius: 50%;
+}
+div .footer1 a{
+    text-decoration: none;
+    list-style: none;
+}
+.footer1{
+    text-align: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+}
+.footer2{
+    /* text-align: center; */
+    padding-left: 12%;
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+}
+.footer3{
+    /* text-align: center; */
+    padding-left: 10%;
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+}
+.footer1 h6, .footer2 h6, .footer3 h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.footer1 p, .footer2 p, .footer3 p{
+    margin: 0px;
+}
+.fa-mobile{
+    color: blueviolet;
+}
+.fa-envelope{
+    color: darksalmon;
+}
+.fa-linkedin-square{
+    color: blue;
+}
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:white;
+    font-weight: 400;
+    margin: 0px;
+}
+.footer1-cont{
+    color: white;
+}
+.content>p>i{  
+    margin-right: 10px;
+}
+.para{
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.para>p{
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px){
+    .footer1{
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer2{
+        margin-top: 30px;
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer3{
+        margin-top: 30px;
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .para p{
+        margin-top: 20px;
+    }
+}

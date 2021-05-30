@@ -1,0 +1,11 @@
+.carousel-img{
+    height: 40vh;
+}
+.myCarousel{
+    margin-top: 30px;
+}
+@media screen and (max-width: 600px){
+    .carousel-img{
+        height: 15vh;
+    }
+}

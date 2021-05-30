@@ -1,0 +1,91 @@
+.userInput-input{
+    color: lightslategray;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    width: 70vw;
+    margin:auto;
+    height: 40px;
+    margin-bottom: 25px;
+}
+.userInput-label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    width: 70vw;
+    margin:auto;
+    margin-bottom: 5px;
+}
+.radioInput-label{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    display: block;
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.radioInput-input{
+    /* font-size: 50px; */
+    /* font-weight: bold; */
+    /* display: block; */
+    /* margin-left: -100px; */
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+    padding-right: 10px;
+    /* margin: 0 auto; */
+}
+.tutor-page h2{
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 8px crimson, 1px 1px mediumslateblue; 
+    text-decoration: underline;
+}
+.tutor-register2 h3{
+    text-align: center;
+}
+.my-fieldset{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(114, 218, 157);
+}
+.my-legend{
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: rgb(138, 83, 226);
+    margin: 20px;
+    width: auto;
+}
+.tutor-label{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 70vw;
+    margin:auto;
+    margin-bottom: 5px;
+}
+.radio-buttons{
+    margin-bottom: 30px;
+}
+
+.tutor-button{
+    width: 150px;
+    height: 45px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1024px){
+    .tutor-register1 h3{
+        margin-top: 20px;
+        /* text-align: center; */
+    }
+    .tutor-register1 li{
+        margin-left: 30px;
+    }
+}

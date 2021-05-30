@@ -1,0 +1,55 @@
+.signuppage-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.signuppage-container input{
+    outline: none;
+    border: none;
+}
+
+.fa-signup{
+    color: seagreen;
+}
+
+.signup-gender{
+    margin-top: 25px;
+    color: seagreen;
+    font-weight: 500;
+    margin-bottom: -20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    div.myForm{
+        width: 290px;
+    }
+
+    div.myForm h2{
+        text-align: center;
+        font-size: 2.4rem;
+        margin: 8px 0;
+    }
+    .signuppage-container{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 200px){
+    .signuppage-container{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+

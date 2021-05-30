@@ -1,0 +1,132 @@
+.myfirst-image{
+    padding-top: 10vh;
+    margin-top: 10px;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1562564055-71e051d33c19?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHR1dG9yfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    box-shadow: inset 0 0 0 50vw rgba(0,0,0,0.5);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.myfirst-image p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center; 
+    margin: 0px;
+    padding: 0px; 
+}
+.myfirst-image .p4{
+    display: none;
+  }
+
+.myfirst-image .p3{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(44, end),
+      blink-caret .1s step-end;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+.ourServices h1, .our-aim h2{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkcyan;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline; 
+    text-shadow: 2px 2px 8px crimson, 1px 1px mediumslateblue;  
+}
+.teacher h3,.student h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: indianred;
+    text-shadow: 0px 0px 7px yellow;
+}
+.teacher img{
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+}
+.student img{
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 250px;
+}
+.teacher-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.student-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.our-aim {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(184, 141, 219);
+}
+.our-aim h2{
+    margin-top: 30px;
+}
+.our-aim p{
+    font-size: 19px;
+    margin-left: 30px;
+}
+@media screen and (max-width: 600px){
+    .myfirst-image{
+        margin-top: 50px;
+        padding-top: 5vh;
+        height: 30vh;
+    }
+    .myfirst-image p{
+        font-size: 30px;
+    }
+    .myfirst-image .p3{
+        display: none;
+    }
+    .myfirst-image .p4{
+        display: block;
+      }
+    .ourServices h1{
+        font-size: 30px;
+    }
+    .teacher h3,.student h3{
+        font-size: 17px;
+    }
+    .student h3{
+        margin-top: 30px;
+    }
+    .teacher-content,.student-content{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .student img,.teacher img{
+        margin-left: 0px;
+        width: 90vw;
+        height: 40vh;
+    }
+}
